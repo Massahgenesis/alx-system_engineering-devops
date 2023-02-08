@@ -15,3 +15,6 @@ Is the command use to display curent directory in long format.
 
     . ls -la
 Is use to display current directory including hidden file.
+
+    . ls -na
+Is the command use to display current directory with long format,with user and group IDs display numerically and hidden files starting with dot.
