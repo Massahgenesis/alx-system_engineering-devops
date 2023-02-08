@@ -25,3 +25,5 @@ I use the mkdir command to create a diretcory in the tmp directory.
     . mv /tmp/betty /tmp/my_first_directory
 This is the script to moov a file from tmp to a new directory in tmp.
 
+    . rm /tmp/my_first_directory/betty
+The script to delete betty file in the directory
