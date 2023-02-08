@@ -24,3 +24,5 @@ The script to delete the first directory in tmp directory.
 The command to change the working directory to the previous.
     . ls -la . .. /boot
 The command to list the directory boot content.
+    . file /tmp/aimafile
+The script to print the type of the file named aimafile.
