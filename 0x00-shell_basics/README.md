@@ -19,5 +19,5 @@ Is use to display current directory including hidden file.
     . ls -na
 Is the command use to display current directory with long format,with user and group IDs display numerically and hidden files starting with dot.
 
-    . mkdir my_first_directory tmp
+    . mkdir /tmp/my_first_directory 
 I use the mkdir command to create a diretcory in the tmp directory.
