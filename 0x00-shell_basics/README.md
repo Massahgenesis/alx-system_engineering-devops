@@ -12,3 +12,6 @@ Is the command use to change the working directory to our home.
 
     . ls -l
 Is the command use to display curent directory in long format.
+
+    . ls -a
+Is use to display current directory including hidden file.
