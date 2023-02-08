@@ -21,3 +21,7 @@ Is the command use to display current directory with long format,with user and g
 
     . mkdir /tmp/my_first_directory 
 I use the mkdir command to create a diretcory in the tmp directory.
+
+    . mv/tmp/betty/tmp/my_first_directory
+This is the script to moov a file from tmp to a new directory in tmp.
+
