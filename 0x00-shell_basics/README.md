@@ -34,3 +34,5 @@ The script to copy all files with extension html.
 The script to create a script that moves all files beginning with an uppercase letter to the directory /tmp/u.
     . rm *~
 The script to create a script that deletes all files in the current working directory that end with the character ~.
+    .mkdir -p welcome/to/school
+ The script that creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory.
