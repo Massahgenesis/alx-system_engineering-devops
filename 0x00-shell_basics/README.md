@@ -11,7 +11,7 @@ Is the command use to display curent directory in long format.
     . ls -la
 Is use to display current directory including hidden file.
     . ls -na
-Is the command use to display current directory with long format,with user and group IDs display numerically and hidden files starting with dot.
+The command use to display current directory with long format,with user, group IDs display numerically and hidden dot files.
     . mkdir /tmp/my_first_directory 
 I use the mkdir command to create a diretcory in the tmp directory.
     . mv /tmp/betty /tmp/my_first_directory
@@ -32,3 +32,5 @@ The script create a symbolic link to /bin/ls, named __ls__.This symbolic link is
 The script to copy all files with extension html.
     . mv [A-Z]* /tmp/u
 The script to create a script that moves all files beginning with an uppercase letter to the directory /tmp/u.
+    . rm *~
+The script to create a script that deletes all files in the current working directory that end with the character ~.
