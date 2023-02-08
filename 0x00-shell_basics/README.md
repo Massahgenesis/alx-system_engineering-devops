@@ -26,5 +26,5 @@ The command to change the working directory to the previous.
 The command to list the directory boot content.
     . file /tmp/aimafile
 The script to print the type of the file named aimafile.
-    . ln -s /bin/ls _ls_
+    . ln -s /bin/ls __ls__
 The script create a symbolic link to /bin/ls, named __ls__.This symbolic link is created in the current working directory.
