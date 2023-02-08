@@ -22,3 +22,5 @@ The script to delete betty file in the directory.
 The script to delete the first directory in tmp directory.
     . cd -
 The command to change the working directory to the previous.
+    . ls -la .. /boot
+The command to list the directory boot content.
