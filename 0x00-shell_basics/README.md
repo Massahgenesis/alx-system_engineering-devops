@@ -29,4 +29,6 @@ The script to print the type of the file named aimafile.
     . ln -s /bin/ls __ls__
 The script create a symbolic link to /bin/ls, named __ls__.This symbolic link is created in the current working directory.
     . cp -u *html ..
-The script to copy all files with extension html
+The script to copy all files with extension html.
+    . mv [A-Z]* /tmp/u
+The script to create a script that moves all files beginning with an uppercase letter to the directory /tmp/u.
