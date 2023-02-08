@@ -9,3 +9,6 @@ Is the command use to display the content of directory.
 
     . cd
 Is the command use to change the working directory to our home.
+
+    . ls -l
+Is the command use to display curent directory in long format.
