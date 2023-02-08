@@ -20,5 +20,5 @@ This is the script to moov a file from tmp to a new directory in tmp.
 The script to delete betty file in the directory.
     . rmdir /tmp/my_first_directory
 The script to delete the first directory in tmp directory.
-    . cd
+    . cd -
 The command to change the working directory to the previous.
