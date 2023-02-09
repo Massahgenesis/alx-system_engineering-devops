@@ -10,7 +10,7 @@ The script to change the owner file.
 The command to create an empty file called betty.
         . chmod u+x hello
 The script that adds execute permission to the owner of the file hello.
-        . chmod ug+x o+r
+        . chmod ug+x,o+r hello
 The script that adds execute permission to the owner and group owner and read permission to the other users.
         . chmod a+x hello
 The script Write a script that adds execution permission to the owner, the group owner and the other users, to the file.
