@@ -8,5 +8,5 @@ The command that prints all the groups the current user is part of.
 The script to change the owner file.
         . touch betty
 The command to create an empty file called betty.
-        . chmod 764 hello
+        . chmod u+x hello
 The script that adds execute permission to the owner of the file hello.
