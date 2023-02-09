@@ -22,3 +22,5 @@ The script to give access to the hello file.
 The script to give the same permission to the same file.
         . chmod +x */
 The script to adds execute permission to all subdirectories of the current directory for the owner,the group owner and all other users.
+        . mkdir -m 751 my_dir
+The script to create a directory with a specific permission.
