@@ -18,3 +18,5 @@ The script Write a script that adds execution permission to the owner, the group
 The script that gives all permissions to the other uses only.
         . chmod 753 hello
 The script to give access to the hello file.
+        . chmod --reference=olleh hello
+The script to give the same permission to the same file.
