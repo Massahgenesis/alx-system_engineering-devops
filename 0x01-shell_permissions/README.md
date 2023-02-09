@@ -16,3 +16,5 @@ The script that adds execute permission to the owner and group owner and read pe
 The script Write a script that adds execution permission to the owner, the group owner and the other users, to the file.
         . chmod 007 hello
 The script that gives all permissions to the other uses only.
+        . 753 hello
+The script to give access to the hello file.
