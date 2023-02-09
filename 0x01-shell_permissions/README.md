@@ -24,5 +24,5 @@ The script to give the same permission to the same file.
 The script to adds execute permission to all subdirectories of the current directory for the owner,the group owner and all other users.
         . mkdir -m 751 my_dir
 The script to create a directory with a specific permission.
-        . chgrp hello school
+        . chown school hello
 The script to change the group owner to school for the file hello.
