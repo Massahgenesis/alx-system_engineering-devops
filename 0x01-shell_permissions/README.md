@@ -2,3 +2,5 @@
 Means use the bash executable found in /bin.
         . whoami
 The command that prints the effective username of the current user.
+        . groups
+The command that prints all the groups the current user is part of.
