@@ -20,5 +20,5 @@ The script that gives all permissions to the other uses only.
 The script to give access to the hello file.
         . chmod --reference=olleh hello
 The script to give the same permission to the same file.
-        . chmod -R ugo+x
+        . chmod -R ugo+x .
 The script to adds execute permission to all subdirectories of the current directory for the owner,the group owner and all other users.
