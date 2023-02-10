@@ -26,5 +26,5 @@ The script to adds execute permission to all subdirectories of the current direc
 The script to create a directory with a specific permission.
         . chgrp school hello
 The script to change the group owner to school for the file hello.
-        . chown vincent:staff
+        . chown vincent: staff
 The script that changes the owner to vincent and the group owner to staff for all the files and directories in the working directory.
