@@ -28,3 +28,5 @@ The script to create a directory with a specific permission.
 The script to change the group owner to school for the file hello.
         . chown vincent:staff *
 The script that changes the owner to vincent and the group owner to staff for all the files and directories in the working directory.
+        . chown vincent-staff: _hello
+The script that changes the owner and the group owner of _hello to vincent and staff respectively.
