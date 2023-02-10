@@ -30,7 +30,7 @@ The script to change the group owner to school for the file hello.
 The script that changes the owner to vincent and the group owner to staff for all the files and directories in the working directory.
         . chown -h vincent:staff _hello
 The script that changes the owner and the group owner of _hello to vincent and staff respectively.
-        . chown --from=hello betty guillaume
+        . chown --from=guillaume betty hello
 The script that changes the owner of the file hello to betty only if it is owned by the user guillaume.
         . telnet towel.blinkenlights.nl
 The script that that will play the StarWars IV episode in the terminal.
