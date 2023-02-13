@@ -16,3 +16,4 @@ is a shebang line used in script files to set bash
 . sort | uniq -u :The script that takes a list of words as input and prints only words that appear exactly once.
 . grep root /etc/passwd :The script that displays  lines containing the pattern “root” from the file /etc/passwd.
 . grep -c bin /etc/passwd :The script that displays the number of lines that contain the pattern “bin” in the file /etc/passwd.
+. grep -B 4 "games" /etc/passwd : The script that displays lines containing the pattern “root” and 3 lines after them in the file /etc/passwd.
