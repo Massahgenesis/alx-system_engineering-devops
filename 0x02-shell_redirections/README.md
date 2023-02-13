@@ -10,3 +10,4 @@ is a shebang line used in script files to set bash
 . echo "Best School" > "\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)" :The script to create a file named with caracters containing text.
 . ls -la > ls_cwd_content : The script that writes into the file ls_cwd_content the result of the command ls -la.
 . tail -1 iacta >> iacta : The script to duplicate the last line of file.
+. find . -type f -name '*.js' -exec rm -f {} :The script that deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders.
