@@ -20,3 +20,4 @@ is a shebang line used in script files to set bash
 . grep -v bin /etc/passwd :The script that displays all the lines in the file /etc/passwd that do not contain the pattern “bin”.
 . grep '^[[:alpha:]]' /etc/ssh/sshd_config :The script that displays all lines of the file /etc/ssh/sshd_config starting with a letter.
 . tr Ac Ze : The sccrit that replace all characters A and c from input to Z and e respectively.
+. tr -d cC : The script that create a script that removes all letters c and C from input.
