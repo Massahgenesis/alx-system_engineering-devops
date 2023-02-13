@@ -14,3 +14,4 @@ is a shebang line used in script files to set bash
 . find -mindepth 1 -type d | wc -l : The script that counts the number of directories and sub-directories in the current directory.
 . ls -lt | head : The script that displays the 10 newest files in the current directory.
 . sort | uniq -u :The script that takes a list of words as input and prints only words that appear exactly once.
+. grep root /etc/passwd :The script that displays  lines containing the pattern “root” from the file /etc/passwd.
