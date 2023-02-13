@@ -22,3 +22,4 @@ is a shebang line used in script files to set bash
 . tr Ac Ze : The sccrit that replace all characters A and c from input to Z and e respectively.
 . tr -d cC : The script that create a script that removes all letters c and C from input.
 . rev : The script that write a script that reverse its input.
+. cut -d":" -f 1,6 /etc/passwd | sort : The script that displays all users and their home directories, sorted by users.
