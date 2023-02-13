@@ -4,3 +4,4 @@ is a shebang line used in script files to set bash
 . echo "\"(Ôo)'" :The script to print confused smiley.
 . cat /etc/passwd : The script to display the content of a file.
 . cat /etc/passwd /etc/hosts :The script to display two files contents.
+. tail /etc/passwd : The script to display the ten last line of the file passwwd.
