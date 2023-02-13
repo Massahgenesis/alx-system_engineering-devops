@@ -17,3 +17,4 @@ is a shebang line used in script files to set bash
 . grep root /etc/passwd :The script that displays  lines containing the pattern “root” from the file /etc/passwd.
 . grep -c bin /etc/passwd :The script that displays the number of lines that contain the pattern “bin” in the file /etc/passwd.
 . grep root /etc/passwd --after-context=3 : The script that displays lines containing the pattern “root” and 3 lines after them in the file /etc/passwd.
+. grep -v bin /etc/passwd :The script that displays all the lines in the file /etc/passwd that do not contain the pattern “bin”.
