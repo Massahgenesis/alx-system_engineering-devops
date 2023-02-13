@@ -23,3 +23,4 @@ is a shebang line used in script files to set bash
 . tr -d cC : The script that create a script that removes all letters c and C from input.
 . rev : The script that write a script that reverse its input.
 . cut -d":" -f 1,6 /etc/passwd | sort : The script that displays all users and their home directories, sorted by users.
+. find ./ -type fd -empty :The script that contain a command that finds all empty files and directories in the current directory.
