@@ -7,4 +7,4 @@ is a shebang line used in script files to set bash
 . tail /etc/passwd : The script to display the ten last line of the file passwwd.
 . head /etc/passwd : The script to display the ten first line of the file passwd.
 . head -n 3 iacta | tail -1 : The script to display the 3rd line of iacta file.
-. mkdir '\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)' :The script to create a file named with caracters.
+. echo "Best School" > "\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)" :The script to create a file named with caracters containing text.
