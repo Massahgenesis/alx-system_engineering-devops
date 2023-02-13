@@ -12,3 +12,4 @@ is a shebang line used in script files to set bash
 . tail -1 iacta >> iacta : The script to duplicate the last line of file.
 . find -name "*.js" -type f -delete :The script that deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders.
 . find -mindepth 1 -type d | wc -l : The script that counts the number of directories and sub-directories in the current directory.
+. ls -lt | head : The script that displays the 10 newest files in the current directory.
