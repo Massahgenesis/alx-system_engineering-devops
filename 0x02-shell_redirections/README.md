@@ -21,3 +21,4 @@ is a shebang line used in script files to set bash
 . grep '^[[:alpha:]]' /etc/ssh/sshd_config :The script that displays all lines of the file /etc/ssh/sshd_config starting with a letter.
 . tr Ac Ze : The sccrit that replace all characters A and c from input to Z and e respectively.
 . tr -d cC : The script that create a script that removes all letters c and C from input.
+. rev : The script that write a script that reverse its input.
