@@ -7,3 +7,4 @@
 . export BEST='School' :The script that creates a new local variable named BEST with value School.
 . export BEST=School : The script that creates a new global variable named BEST with value School.
 . echo $(($TRUEKNOWLEDGE+128)) :The script that that prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line.
+. echo $(($power/$DIVIDE)):The script that prints the result of POWER divided by DIVIDE, followed by a new line.
