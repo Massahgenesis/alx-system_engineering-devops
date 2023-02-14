@@ -9,4 +9,5 @@
 . echo $(($TRUEKNOWLEDGE+128)) :The script that that prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line.
 . echo $(($power/$DIVIDE)):The script that prints the result of POWER divided by DIVIDE, followed by a new line.
 . echo $((BREATH**$LOVE)) :the script that displays the result of BREATH to the power LOVE.
-. $((2#10100111001)):The script that converts a number from base 2 to base 10.
+. $((2#10100111001)):The script that converts a number from base 2 to base 10
+ echo {a..z}{a..z} | grep -v oo :The script that prints all possible combinations of two letters, except oo.
