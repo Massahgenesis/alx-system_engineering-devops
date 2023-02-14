@@ -5,4 +5,5 @@
 . printenv : The script that lists environment variables.
 . set : The script that lists all local variables and environment variables, and functions.
 . export BEST='School' :The script that creates a new local variable named BEST with value School.
-. BEST='School' : The script that creates a new global variable named BEST with value School.
+. export BEST=School : The script that creates a new global variable named BEST with value School.
+
