@@ -25,3 +25,4 @@ is a shebang line used in script files to set bash
 . cut -d":" -f 1,6 /etc/passwd | sort : The script that displays all users and their home directories, sorted by users.
 . find ./ -type fd -empty :The script that contain a command that finds all empty files and directories in the current directory.
 . find . -type f -name "*.gif" -printf "%f\n"| rev | cut -d '.' -f2- | rev | LC_ALL=C sort -f : The script that lists all the files with a .gif extension in the current directory and all its sub-directories.
+. tail -n +2 | cut -f1 | sort | uniq -c | sort -nr -k 1,1 | cut -c 9- | head -11 :The script parses web servers logs in TSV format as input and displays the 11 hosts or IP addresses which did the most requests.
